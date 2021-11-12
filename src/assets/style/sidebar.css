@@ -1,0 +1,115 @@
+.side-bar {
+    width: 250px;
+    box-shadow: 4px 0px 10px -1px rgba(0,0,0,0.50);
+    height: 100%;
+    position: absolute;
+    border-radius: 5px;
+    background-color: rgba(2,114,182, 0.56);
+    float: left;
+    top: 0;
+}
+
+.side-bar .left-arrow {
+    position: absolute;
+    height: 25px;
+    right: 0%;
+    margin-right: 6px;
+    margin-top: 2px;
+}
+
+.side-bar .right-arrow {
+    display: none;
+}
+
+.checkboxes h2{
+   text-align: center;
+   border-bottom: 3px dotted rgba(128, 128, 128, 0.5);
+}
+
+
+.checkbox-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.checkbox-container input {
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+
+.internet-slider {
+    margin-top: 15px;
+}
+
+.internet-slider h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.internet-selection {
+    display: flex;
+    justify-content: center;
+}
+
+.internet-selection input {
+    width: 90%;
+}
+
+
+.tv-checkbox {
+    margin-top: 15px;
+}
+
+.tv-checkbox h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.tv-selection {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.tv-selection input {
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+
+.xh-selection h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.xh-button {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.xh-button input {
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+
+
+.voice-selection h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.voice-button {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.voice-button input {
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
